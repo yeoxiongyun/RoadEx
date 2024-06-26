@@ -67,7 +67,13 @@ The DeepGlobe Road Extraction Dataset was obtained from [Kaggle](https://www.kag
 
 [Google Drive](https://drive.google.com/drive/folders/1uABt127ehNBQyfCnv6OND841ZrUlhmNB)
 
+## Methodology
+<img width="1470" alt="Screenshot 2024-06-26 at 6 38 07 PM" src="https://github.com/yeoxiongyun/RoadEx/assets/84406436/c1944e5a-0aa0-48fb-9afd-f46418a93d5c">
+
 ## Evaluation
+<img width="1470" alt="Screenshot 2024-06-26 at 6 38 11 PM" src="https://github.com/yeoxiongyun/RoadEx/assets/84406436/23ec1e62-33f0-423c-85ab-3475785d1175">
+<img width="1470" alt="Screenshot 2024-06-26 at 6 38 14 PM" src="https://github.com/yeoxiongyun/RoadEx/assets/84406436/c746a104-b9cf-46a3-aca9-82c2839c059c">
+
 Detailed examples of the metrics can be found in the [evaluation metrics](https://github.com/yeoxiongyun/RoadEx/blob/main/src/evaluation_metrics.ipynb) Jupyter Notebook.
 
 
