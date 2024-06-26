@@ -5,7 +5,7 @@
 *.txt
 
 # Ignore Python bytecode
-__pycache__/
+__pycache__
 *.pyc
 *.pyo
 *.pyd
@@ -14,10 +14,10 @@ __pycache__/
 venv/
 env/
 
-# Ignore build artifacts\
-build/\
-dist/\
-*.egg-info/\
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
 
 # Ignore local environment settings or API keys
 .env
