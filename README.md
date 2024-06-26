@@ -40,3 +40,14 @@ The DeepGlobe Road Extraction Dataset was obtained from [Kaggle](https://www.kag
 #### Sat2Graph Dataset (Google Drive)
 [Sat2Graph SpaceNet3 Dataset](https://drive.google.com/drive/folders/1uABt127ehNBQyfCnv6OND841ZrUlhmNB)
 
+
+
+
+## Evaluation
+Detailed examples of the metrics can be found in the [evaluation metrics](https://github.com/yeoxiongyun/RoadEx/blob/main/src/evaluation_metrics.ipynb) Jupyter Notebook.
+
+
+
+## License
+Not allowed for commercial purposes. Only for academic research.
+
