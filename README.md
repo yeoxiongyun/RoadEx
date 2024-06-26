@@ -23,25 +23,49 @@ The DeepGlobe Road Extraction Dataset was obtained from [Kaggle](https://www.kag
 
 **Note**: The labels are not perfect, especially in rural areas.
 
-| Image Attributes   | Images                                   | Masks                                        |
-|-------------------|-------------------------------------------|----------------------------------------------|
-| Type              | RGB                                       | Grayscale                                    |
-| Number            | 6226                                      | 6226                                         |
-| Filename          | '_sat.jpg'                                | '_mask.png'                                  |
-| Dimensions        | 1024 x 1024                               | 1024 x 1024                                  |
-| Pixel Resolution  | 50cm                                      |                                              |
+| Image Attributes   | Images                      | Masks                 | Graphs                |
+|-------------------|------------------------------|-----------------------|-----------------------|
+| Type              | RGB                          | Grayscale             | -                     |
+| Number            | 6226                         | 6226                  | -                     |
+| Filename          | '_sat.jpg'                   | '_mask.png'           | -                     |
+| Dimensions        | 1024 x 1024                  | 1024 x 1024           | -                     |
+| Pixel Resolution  | 50cm                         | 50                    | -                     |
+
 
 #### MUNO21: A Dataset for Map Update using Aerial Images
-[MUNO21 Dataset](https://favyen.com/muno21/)
+[MUNO21 Dataset](https://favyen.com/muno21/) includes imagery and road network data from 21 cities in the US: Atlanta, Austin, Baltimore, Boston, Chicago, Dallas, DC, Denver, Detroit, Houston, Los Angeles, Miami, New Orleans, New York, Philadelphia, Phoenix, Pittsburgh, San Antonio, Seattle, San Francisco, and Las Vegas
 
-#### Cityscale Dataset (Google Drive)
+| Image Attributes   | Images                      | Masks                 | Graphs                |
+|-------------------|------------------------------|-----------------------|-----------------------|
+| Type              | RGB                          | -                     | JSON/ OSM             |
+| Number            | 157                          | -                     | -                     |
+| Filename          | '.jpg'                       | -                     | '.graph'              |
+| Dimensions        | 11133 × 13384                | -                     | -                     |
+| Pixel Resolution  | 100cm                        | -                     | -                     |
+
+#### Cityscale Dataset
 [Cityscale Dataset](https://drive.google.com/drive/folders/1uABt127ehNBQyfCnv6OND841ZrUlhmNB)
 
-#### Sat2Graph Dataset (Google Drive)
+| Image Attributes   | Images                      | Masks                 | Graphs                |
+|-------------------|------------------------------|-----------------------|-----------------------|
+| Type              | RGB                          | RGB/ Grayscale        | Pickle/ JSON          |
+| Number            | -                            | -                     | -                     |
+| Filename          | '.png'                       | '.png'                | '.p'                  |
+| Dimensions        | 2048 × 2048                  | 2048 × 2048           | -                     |
+| Pixel Resolution  | 10cm                         | -                     | -                     |
+
+#### Sat2Graph Dataset
 [Sat2Graph SpaceNet3 Dataset](https://drive.google.com/drive/folders/1uABt127ehNBQyfCnv6OND841ZrUlhmNB)
 
+| Image Attributes   | Images                      | Masks                 | Graphs                |
+|-------------------|------------------------------|-----------------------|-----------------------|
+| Type              | RGB                          | Grayscale             | Pickle                |
+| Number            | -                            | -                     | -                     |
+| Filename          | '.png'                       | '.png'                | 'gt_graph.p'          |
+| Dimensions        | 400 × 400                    | 400 × 400             | -                     |
+| Pixel Resolution  | 30cm                         | -                     | -                     |
 
-
+[Google Drive](https://drive.google.com/drive/folders/1uABt127ehNBQyfCnv6OND841ZrUlhmNB)
 
 ## Evaluation
 Detailed examples of the metrics can be found in the [evaluation metrics](https://github.com/yeoxiongyun/RoadEx/blob/main/src/evaluation_metrics.ipynb) Jupyter Notebook.
