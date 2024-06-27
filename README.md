@@ -1,14 +1,8 @@
 # RoadEx
 Extraction of Road Networks from Aerial Images with Reinforcement Learning
 
-**Project Description**
-
-
+## Project Description
 Road network extraction from aerial images is a challenging task that requires significant effort and time when performed manually. Most current approaches apply a post-processing step that vectorizes road segmentation predicted by a CNN, but this results in connectivity issues in road graphs due to segmentation errors. In this project, we will explore another approach that models the process of a reinforcement learning agent iteratively constructing the road graph directly from visual inputs.
-
-
-## Introduction
-
 
 ## Data
 
