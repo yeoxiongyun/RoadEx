@@ -1,13 +1,14 @@
 # U-Net: Extraction of Road Networks from Aerial Images
 
 
-## Methodology
+## Segmentation
 
 <img width="1186" alt="segmentation" src="https://github.com/user-attachments/assets/7d0efab1-979a-48fe-b294-25276e228d66" />
 
-![unet_model](https://github.com/user-attachments/assets/7bf6aaed-3242-483a-b5a9-3a33630bdb91)
+## Architecture
 
-## Evaluation
+<img width="1470" alt="unet-architecture" src="https://github.com/user-attachments/assets/2dcd1cee-4d44-44df-8c69-c17e0709f72c" />
+
 
 ## License
 Not allowed for commercial purposes. Only for academic research.
